@@ -57,7 +57,7 @@ as `function(x) strsplit(x, "|")[[1]]`. This self-defined function is assigned
 to the `get_type` argument in `oncoPrint()`.
 
 **Since in most cases, the separators are only single characters, If the
-separators are in `;:,|`, `oncoPrint()` automatically spit the alteration
+separators are in `;:,|`, `oncoPrint()` automatically splits the alteration
 strings so that you don't need to explicitely specify `get_type` in
 `oncoPrint()` function.**
 
